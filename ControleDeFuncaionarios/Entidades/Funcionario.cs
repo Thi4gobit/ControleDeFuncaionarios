@@ -17,8 +17,8 @@ namespace ControleDeFuncaionarios.Entidades
         public string Nome { get; set; } = string.Empty;
         public string Cpf { get; set; } = string.Empty;
         public string Matricula { get; set; } = string.Empty;
-        public DateOnly DataAdmissao { get; set; } = DateOnly.FromDateTime(DateTime.Now);
-        public Guid EmpresaId { get; set; } = Guid.Empty;
+        public DateTime DataAdmissao { get; set; }
+        public Guid EmpresaId { get; set; }
 
         #endregion
 
